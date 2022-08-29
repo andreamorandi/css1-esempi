@@ -1,0 +1,58 @@
+/* Per gli id
+#first-title{
+    color: blue;
+} */
+
+.text-blue{
+    color: blue;
+}
+
+h2{
+    font-style: italic;
+}
+
+.yellow-block{
+    background-color: yellow;
+}
+
+.red-block p{
+    color: red;
+}
+
+.red-block p span{          /* p span : gli span che sono in un tag p */
+    background-color: aqua;
+}
+
+.highlight{
+    background-color:fuchsia;
+}
+
+.container{
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+    border: 2px solid grey;
+}
+
+.serif-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: end;
+}
+
+.sans-serif-title{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    background-image: url(../css/img/logo.png);
+    background-size: contain; /*Modifica limmagine per riempire il div*/
+    /*background-size: 20%; rispetto al div*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
